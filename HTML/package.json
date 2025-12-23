@@ -1,0 +1,17 @@
+{
+  "name": "basicserver",
+  "version": "1.0.0",
+  "description": "this is my first server ide appliations",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "form.js",
+  "scripts": {
+     "start": "node form.js",
+  "dev": "nodemon form.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
