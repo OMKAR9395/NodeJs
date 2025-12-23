@@ -9,6 +9,7 @@ http.createServer((req,resp)=>{
     }else if(req.url == '/submit'){
         resp.writeHead(200,{"content-type":"text/html"})
         userDataSubmit(req,resp);
+        
     }else {
         resp.writeHead(404);
         resp.end("Page Not Found");
