@@ -10,6 +10,7 @@ http
             resp.writeHead(500, { 'content-type': 'text/plain' });
             return resp.end('Internal Server Error');
           }
+
           resp.writeHead(200, { 'content-type': 'text/html' });
           resp.end(data);
         });
