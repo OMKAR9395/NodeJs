@@ -2,7 +2,6 @@ const http = require('http');
 const fs = require('fs');
 
 http
-
   .createServer((req, resp) => {
     fs.readFile('./form.html', 'utf-8', (error, data) => {
       if (req.url === '/' && req.method === 'GET') {
